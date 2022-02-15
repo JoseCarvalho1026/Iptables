@@ -30,6 +30,6 @@
 
 ◻️ `service iptables restart` ;
 
-◻️ `service iptables reloud` ;
+◻️ `service iptables reload` ;
 
 ◻️ `service iptables save` ;
