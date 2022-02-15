@@ -30,3 +30,8 @@
 -A PREROUTING -i eth0 -p tcp -m tcp --dport 3389 -j DNAT --to-destination 192.168.2.152
 -A PREROUTING -i eth0 -p tcp -m tcp --dport 3390 -j DNAT --to-destination 192.168.2.153:3389
 ```
+◻️ `netfilter-persistent restart` ;
+
+◻️ `netfilter-persistent reload`` ;
+
+◻️ `netfilter-persistent save` .
